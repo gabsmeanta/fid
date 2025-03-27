@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriella Medina Santana - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6e6fa; /* Lavender purple */
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #674ea7; /* Darker purple */
+            text-align: center;
+        }
+
+        h2 {
+            color: #674ea7;
+            border-bottom: 2px solid #674ea7;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 15px;
+        }
+
+        .date {
+            font-style: italic;
+            float: right;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .skills-hobbies {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+        .skills-hobbies h3 {
+            color: #674ea7;
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #1155cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-info">
+            <h1>Gabriella Medina Santana</h1>
+            <p>Sanford, FL 32773</p>
+            <p><a href="mailto:Gabbymsc1@gmail.com">Gabbymsc1@gmail.com</a></p>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>My name is Gabriella Medina, a college sophomore who is currently working toward my B.A. degree. I have a strong passion for music and animation, which has led me to pursue a bachelor's degree in animation, and a minor in music. In the future, I want to get a master's degree in animation. Additionally, I love to sing, voice act, produce, and write music. Throughout my education, I aim to express my creativity and achieve my career goals.</p>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience/Volunteer Service</h2>
+            <div class="section">
+                <h3>VOICE ACTING</h3>
+                <p class="date">02/2018 - 10/2023</p>
+                <p>Casting Call Club Website</p>
+                <ul>
+                    <li>Landed 20+ different roles for video game characters/cartoons.</li>
+                    <li>I was complimented by many on my profile about my voice-acting skills.</li>
+                    <li>Was gifted rewards/badges for my performance in my landed roles.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>HIGH SCHOOL ART CLUB</h3>
+                <p class="date">08/2022 - 06/2023</p>
+                <p>Leader</p>
+                <ul>
+                    <li>Implemented skill development programs within the club, offering tutorials, lessons, or mentorship opportunities to help members improve their artistic abilities.</li>
+                    <li>Worked collaboratively with school administration to secure resources and ensure the continued support of the art club within the school community.</li>
+                    <li>Facilitated collaborative art projects that involved club members working together to create large-scale artworks, murals, or installations for the school or community.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="section">
+                <h3>SEMINOLE STATE COLLEGE</h3>
+                <p class="date">08/2023 - 12/2024</p>
+                <p>Associate in Arts Degree, General Education</p>
+                <ul>
+                    <li>4.0 GPA on 4.0 Scale</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>SOCRATES PREPARATORY SCHOOL</h3>
+                <p class="date">Graduated: 06/2023</p>
+                <p>High School Diploma</p>
+                <ul>
+                    <li>4.0 GPA on 4.0 Scale</li>
+                    <li>Completed 6 Dual Enrollment courses during senior year</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Additional Skills/Hobbies</h2>
+            <div class="skills-hobbies">
+                <div>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Digital Production</li>
+                        <li>Good Time Management</li>
+                        <li>Dedication</li>
+                        <li>Artistry</li>
+                        <li>Musicality</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Voice acting</li>
+                        <li>Animation</li>
+                        <li>Singing</li>
+                        <li>Art</li>
+                        <li>Writing/Reading</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            
+            <div class="artwork-gallery">
+                <style>
+                    .artwork-gallery {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(50px, 200px)); /* Width between 50px and 200px */
+                        grid-gap: 10px;
+                        margin-top: 10px;
+                    }
+                
+                    .thumbnail-link {
+                        display: block;
+                        width: 100%;
+                        padding-bottom: 100%; /* Makes it square */
+                        position: relative;
+                        overflow: hidden;
+                        cursor: pointer; /* Indicate it's clickable (optional) */
+                    }
+                
+                    .thumbnail {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover; /* Prevents distortion, might crop */
+                    }
+                
+                    /* Styles for the modal/overlay */
+                    .modal {
+                        display: none; /* Hidden by default */
+                        position: fixed; /* Stay in place */
+                        z-index: 1; /* Sit on top */
+                        left: 0;
+                        top: 0;
+                        width: 100%; /* Full width */
+                        height: 100%; /* Full height */
+                        overflow: auto; /* Enable scroll if needed */
+                        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+                    }
+                
+                    .modal-content {
+                        margin: auto;
+                        display: block;
+                        width: 80%;
+                        max-width: 700px;
+                    }
+                
+                    #caption {
+                        margin: auto;
+                        display: block;
+                        width: 80%;
+                        max-width: 700px;
+                        text-align: center;
+                        color: #ccc;
+                        padding: 10px 0;
+                        height: 150px;
+                    }
+                
+                    .modal-content, #caption {
+                        animation-name: zoom;
+                        animation-duration: 0.6s;
+                    }
+                
+                    @keyframes zoom {
+                        from {transform:scale(0)}
+                        to {transform:scale(1)}
+                    }
+                
+                    .close {
+                        position: absolute;
+                        top: 15px;
+                        right: 35px;
+                        color: #f1f1f1;
+                        font-size: 40px;
+                        font-weight: bold;
+                        transition: 0.3s;
+                        cursor: pointer;
+                    }
+                
+                    .close:hover,
+                    .close:focus {
+                        color: #bbb;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                </style>
+                
+                <div class="section">
+                    <h2>Artwork</h2>
+                    <div class="artwork-gallery">
+                        <div class="thumbnail-link" onclick="openModal('Aot inspired.avif', 'Attack On Titan Inspired Artwork')">
+                            <img src="Aot inspired.avif" alt="Artwork 1" class="thumbnail">
+                        </div>
+                        <div class="thumbnail-link" onclick="openModal('dnoteinspired.avif', 'Dnote Inspired Artwork 2')">
+                            <img src="dnoteinspired.avif" alt="Artwork 2" class="thumbnail">
+                        </div>
+                        <div class="thumbnail-link" onclick="openModal('jianisemv.avif', 'Artwork for Music Video')">
+                            <img src="jianisemv.avif" alt="Artwork 3" class="thumbnail">
+                        </div>
+                        <div class="thumbnail-link" onclick="openModal('aot inspired 2.avif', '2nd Attack On Titan Artwork ')">
+                            <img src="aot inspired 2.avif" alt="Artwork 4" class="thumbnail">
+                        </div>
+                        </div>
+                
+                    <div id="myModal" class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+                
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+                
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                
+                    function openModal(imgSrc, altText) {
+                        modal.style.display = "block";
+                        modalImg.src = imgSrc;
+                        captionText.innerHTML = altText;
+                    }
+                
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                
+                    // When the user clicks on <span> (x), close the modal
+                    function closeModal() {
+                        modal.style.display = "none";
+                    }
+                
+                    // Close the modal if the user clicks outside of the image
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+                </script>
+                </div>
+        </div>
+
+        <div class="section">
+            <h2>Artwork Gallery Link</h2>
+            <p><a href="https://sparkles107s3.wixsite.com/gaalaxiecommissions">[Click here to view all of my artwork]</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>PRIMARY EMAIL: <a href="mailto:Gabbymsc1@gmail.com">Gabbymsc1@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
