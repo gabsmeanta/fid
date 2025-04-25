@@ -1,0 +1,80 @@
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
+body {
+  font-family: 'Marko One', serif;
+  font-size: 100%;
+  line-height: 1.75;
+  background-color: #fffaf0;
+  color: #2e2e2e;
+  margin: 0 10%;
+}
+
+header {
+  background-color: #fce4ec;
+  padding: 2em 1em;
+  text-align: center;
+  border-bottom: 4px solid #f8bbd0;
+}
+
+h1 {
+  color: #880e4f;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+  margin: 1em 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 16px;
+  color: #4a148c;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #f8bbd0;
+  border-color: #ce93d8;
+}
+
+main {
+  padding: 20px;
+  background-color: #fff0f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  color: #6a1b9a;
+  border-bottom: 2px solid #ba68c8;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #fce4ec;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  margin-top: 2em;
+  border-top: 4px solid #f8bbd0;
+}
+
+footer a {
+  color: #4a148c;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
