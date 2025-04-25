@@ -1,0 +1,134 @@
+/* General Body Styles */
+body {
+    background-color: #faf2e4;
+    margin: 0 10%; /* Keeps original side margins */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Common sans-serif stack */
+    line-height: 1.6; /* Improves readability */
+    color: #333; /* Default text color */
+}
+
+/* Header Styles */
+.main-header h1 {
+    text-align: center;
+    font-family: Georgia, serif; /* Common serif stack */
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 2px solid #57b1dc; /* Slightly thicker border */
+    margin-top: 30px;
+    margin-bottom: 20px; /* Added bottom margin */
+    padding-bottom: 10px; /* Added padding below text/image */
+    color: #222; /* Darker heading color */
+}
+
+.main-header h1 img {
+    max-width: 100px; /* Limit logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between logo and text */
+    vertical-align: middle; /* Align better if text wraps */
+}
+
+/* Navigation Styles */
+.main-nav {
+    background-color: #444; /* Dark background for nav */
+    padding: 10px 0;
+    margin-bottom: 30px; /* Space below nav */
+    text-align: center; /* Center the list items */
+}
+
+.main-nav ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline-block; /* Arrange items horizontally */
+    margin: 0 15px; /* Space between items */
+}
+
+.main-nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #faf2e4; /* Light text color for contrast */
+    font-weight: bold;
+    padding: 5px 10px; /* Add some clickable area */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.main-nav a:hover,
+.main-nav a:focus { /* Style for hover and keyboard focus */
+    background-color: #57b1dc; /* Highlight color on hover/focus */
+    color: #fff;
+    border-radius: 4px; /* Slightly rounded corners on hover */
+}
+
+
+/* Main Content Section Styles */
+main section {
+    margin-bottom: 30px; /* Space between sections */
+}
+
+h2 {
+    color: #d1633c; /* Original orange color */
+    font-size: 1.4em; /* Slightly larger heading */
+    border-bottom: 1px dotted #d1633c; /* Dotted underline */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+em { /* Style for emphasized text */
+    color: #555;
+    font-style: italic;
+}
+
+address { /* Style for address block */
+    font-style: normal; /* Override default italics */
+    line-height: 1.5;
+}
+
+/* Order Button Section */
+.order-section {
+    text-align: center; /* Center the button */
+    margin: 40px 0; /* Add vertical space around the button */
+}
+
+.order-section img {
+     max-width: 200px; /* Control button size */
+     height: auto;
+     border: 1px solid #ccc; /* Subtle border */
+     border-radius: 5px; /* Rounded corners */
+     box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Slight shadow */
+     transition: transform 0.2s ease; /* Hover effect */
+}
+
+.order-section img:hover {
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 2px solid #57b1dc; /* Match header border */
+    background-color: #f1ebe0; /* Slightly different background for footer */
+    font-size: 0.9em;
+    color: #555;
+}
+
+.social-icons a {
+    margin: 0 10px; /* Space between icons */
+    display: inline-block; /* Allows margin and proper spacing */
+    transition: opacity 0.3s ease; /* Smooth hover effect */
+}
+
+.social-icons img {
+    vertical-align: middle; /* Align icons nicely with text if any */
+}
+
+.social-icons a:hover {
+    opacity: 0.7; /* Dim icons slightly on hover */
+}
